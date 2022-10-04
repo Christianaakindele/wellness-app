@@ -1,0 +1,19 @@
+@use 'custom';
+
+// IMPORT THE COMPONENTS 
+@use 'components/button';
+@use 'components/mixins';
+@use 'components/typography';
+
+// IMPORT THE SECTIONS 
+@use 'sections/navbar';
+@use 'sections/community';
+@use 'sections/contact';
+@use 'sections/intro-section';
+@use 'sections/services';
+@use 'sections/footer';
+
+body{
+    padding:0 0 0 1rem;
+
+}

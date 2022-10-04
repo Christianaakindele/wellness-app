@@ -1,0 +1,80 @@
+@use '../custom' as*;
+
+.container{
+
+    .main-container{
+
+        .text-start{
+            margin-top: 5%;
+
+            .connected{
+                font-weight: 600;
+                font-size: 50px;
+            }
+            .others{
+                font-weight: 600;
+                font-size: 50px;
+                
+                .trapezium{
+                    
+                    background: #ffc107;
+                   
+                    height: 68px;
+                    padding: 0px 10px 10px 10px;
+                    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+                    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+
+                }
+            }
+
+            .healing{
+                font-weight: 600;
+                font-size: 50px;
+
+            }
+
+            .phase-2{
+                margin-top: 20px;
+                color: #adb5bd;
+                
+            }
+            .getting-well{
+                color: #adb5bd;
+                font-size: 15px;
+
+            }
+
+            .getappointment{
+
+                .hella{
+                    color: #000;
+                    position: relative;
+                    text-decoration: underline;
+                    margin-left: 15px;
+                    font-size: 12px;
+                }
+
+               
+
+                .register-button{
+                    border: 2px solid;
+                    border-color:#000;
+                    background:#7edbb0;
+
+                }
+
+               
+
+
+                .get-appointment{
+
+                    text-decoration: none;
+                    font-size: 12px;
+                   
+                }
+            }
+
+        }
+    }
+}
+

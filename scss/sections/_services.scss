@@ -1,0 +1,36 @@
+@use '../custom' as*;
+
+.container-services{
+    background-color:#dee2e6;
+    border-radius: 25px;
+    margin-left: 1px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+   
+
+    .services-1{
+
+        .services-head{
+
+            .register-button{
+                       border: 2px solid;
+                       border-color:#000;
+                        background:#7edbb0;
+                        margin-left: 20px;
+                        margin-bottom: 5px;
+                         
+
+                        .appointment{
+                            text-decoration: none;
+                            font-size: 12px;
+
+                        }
+
+            }
+
+            p{
+                color: #adb5bd;
+            }
+        }
+    }
+}
